@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
 // Ganti dengan token bot kamu
-const BOT_TOKEN = '7597477264:AAFMXbMk_j9usWKnYdw0nmxE4U6qXQ0bYUI';
-const OWNER_ID = 7143446125;
+const BOT_TOKEN = '';
+const OWNER_ID = ;
 
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
@@ -102,3 +102,4 @@ bot.onText(/\/sendpin (\d+)/, (msg, match) => {
 });
 
 console.log('🤖 Bot sedang berjalan...');
+
